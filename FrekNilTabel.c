@@ -1,12 +1,17 @@
+/* Nama File : FrekNilTabel.c */
+/* Deskripsi : Menampilkan nilai elemen tabel T yang kemunculannya lebih dari 1 kali*/
+/* Pembuat   : Muhamad Gunawan (24060122120016)*/
+/* Tanggal Pembuatan   : 14 Maret 2023*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int FrekNilTabel(){
+int main(){
 
-    int *T;
-    int i,j;
-    int count;
-    int Masukkan;
+    int *T; /* Pointer ke integer */
+    int i,j; /* Counter */
+    int count; /* Menghitung banyaknya Element yang sama */
+    int Masukkan; /* Jumlah Element Array */
 
     printf("Masukkan nilai N : ");
     scanf("%d",&Masukkan);
@@ -34,6 +39,7 @@ int FrekNilTabel(){
                 printf("%d",T[i]);
             }
         }
+        free(T);
     }
     return 0;
 }
