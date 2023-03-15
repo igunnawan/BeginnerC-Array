@@ -1,3 +1,8 @@
+/* Nama File : SimetriTabel.c */
+/* Deskripsi : Melakukan cek apakah tabel T1 dan T2 simetri atau tidak */
+/* Pembuat   : Muhamad Gunawan (24060122120016)*/
+/* Tanggal Pembuatan   : 14 Maret 2023*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
