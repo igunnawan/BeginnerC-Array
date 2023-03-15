@@ -1,11 +1,17 @@
+/* Nama File : JumFrekNilTabel.c */
+/* Deskripsi : Menampilkan nilai elemen tabel T yang kmunculannya lebih dari 1 kali */
+/* Pembuat   : Muhamad Gunawan (24060122120016)*/
+/* Tanggal Pembuatan   : 14 Maret 2023*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int JumFrekNilTabel(){
 
-    int *T;
-    int i,j;
-    int sum,n;
+    int *T; /* Pointer ke Integer */
+    int i,j; /* Counter */
+    int sum; /* Menjumlahkan Element */
+    int n; /* Jumlah Element pada Array T */
 
     sum = 0;
     T = (int*)malloc(n*sizeof(int));
